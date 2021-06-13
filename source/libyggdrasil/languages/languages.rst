@@ -13,6 +13,11 @@ Programming Languages
     | Interfacing with hardware through C++
     | :ref:`>>> <libyggdrasil_cpp>`
 
+.. seealso::
+    | **Rust Programming**
+    | Interfacing with hardware through Rust
+    | :ref:`>>> <hal_rust>`
+
 
 .. toctree::
     :maxdepth: 1
@@ -21,3 +26,4 @@ Programming Languages
  
     c
     cpp
+    rust

@@ -21,7 +21,7 @@ Midgard
 Asgard
 ------
 
-Coprozessor
+Coprocessor
 ^^^^^^^^^^^
 .. code-block:: sh
     
