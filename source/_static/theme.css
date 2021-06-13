@@ -4,6 +4,10 @@ img.align-center {
     display: block;
 }
 
+.content {
+    width: 54em;
+}
+
 .sidebar-drawer {
 	width: calc(50% - 35em);
 }
