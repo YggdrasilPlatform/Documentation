@@ -24,6 +24,11 @@ libyggdrasil is a Support Library designed specifically for the use with the Ygg
     | :ref:`>>> <peripherals>`
 
 .. seealso::
+    | **CMSIS DSP Library**
+    | Optimized Digital Signal Processing
+    | :ref:`>>> <cmsis_dsp>`
+
+.. seealso::
     | **Yggdrasil On-Board Connectors**
     | Connecting external peripherals to Yggdrasil
     | :ref:`>>> <connectors>`
@@ -37,3 +42,4 @@ libyggdrasil is a Support Library designed specifically for the use with the Ygg
    languages/languages
    interfaces/interfaces
    peripherals/peripherals
+   cmsis_dsp
