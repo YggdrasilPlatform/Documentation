@@ -111,22 +111,22 @@ Using a 32 Bit timer, the profile counter is able to get you high resolution lon
 
     .. code-tab:: cpp
 
-        ProfileCounter.start();
+        bsp::ProfileCounter.start();
         // The code to measure
         function_to_measure();
-        ProfileCounter.stop();
+        bsp::ProfileCounter.stop();
 
         // Get the passed time in nano seconds  
-        auto passedTime = ProfileCounter.getPassedTime();
+        auto passedTime = bsp::ProfileCounter.getPassedTime();
 
         // Or get the passed time formatted in a string
-        auto passedTimeString = ProfileCounter.getFormattedPassedTime();
+        auto passedTimeString = bsp::ProfileCounter.getFormattedPassedTime();
 
         // The string may be printed like this
         printf("Measured time: %s \n", passedTimeString.c_str());
 
         // Reset the counter value 
-        ProfileCounter.reset();
+        bsp::ProfileCounter.reset();
 
 There is also a function to get the time to an overflow regarding the configured timer clock frequency. 
 
@@ -147,10 +147,10 @@ There is also a function to get the time to an overflow regarding the configured
     .. code-tab:: cpp
 
         // The time to an overflow in nano seconds 
-        auto timeToOverflow = ProfileCounter.getTimeToOverflow();
+        auto timeToOverflow = bsp::ProfileCounter.getTimeToOverflow();
 
         // The time to an overflow formatted in a string
-        auto timeToOverflowString = ProfileCounter.getFormattedTimeToOverflow();
+        auto timeToOverflowString = bsp::ProfileCounter.getFormattedTimeToOverflow();
 
         // The string may be printed like this
         printf("Time to an overflow: %s \n", timeToOverflowString.c_str());
