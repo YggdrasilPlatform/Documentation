@@ -42,7 +42,7 @@ A measurement takes about 10ms.
 
         // Read the humidity
         auto humidity = bsp::ygg::prph::HumiditySensor::getHumidity();
-        printf("Humidity: %f%RH \n", humidity);
+        printf("Humidity: %f%%RH \n", humidity);
         
 .. tabs::
 
