@@ -27,6 +27,13 @@ Source code
 
 Source code for all libraries, examples, templates, ports as well as this documentation can be found easily on `GitLab <https://gitlab.ti.bfh.ch/yggdrasil>`_.
 
+Licensing
+---------
+This software, hardware and documentation can be used by students and other personal of the Bern University of Applied Sciences under the terms of the `MIT license <https://choosealicense.com/licenses/mit/>`_.                                                    
+For other persons this software is under the terms of the `GNU General Public License version 2 <https://choosealicense.com/licenses/gpl-2.0/>`_.                             
+
+
+
 .. toctree::
    :maxdepth: 1
    :caption: Contents:
