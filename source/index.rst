@@ -1,7 +1,7 @@
 Yggdrasil Platform
 ==================
 
-.. image:: assets/title.jpg
+.. image:: assets/title.png
    :width: 100%
    :alt: Yggdrasil
    :align: center
