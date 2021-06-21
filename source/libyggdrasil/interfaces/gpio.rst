@@ -7,6 +7,24 @@ GPIO Interface
     GPIOs can be used to drive a physical pin on the microcontroller to 3.3V or GND in order to control for example an LED.
     Alternatively they can also read if there's currently 3.3V or GND being applied to the pin, to detect for example the state of a button.
 
+Configuration
+-------------
+
+It's possible to change input / output configuration of a GPIO pin using libyggdrasil.
+
+.. tabs::
+
+    .. code-tab:: c
+
+        yggdrasil_GPIO_MakeOutput(LedBlue);
+        yggdrasil_GPIO_MakeInput(ButtonA);
+
+    .. code-tab:: cpp
+
+        bsp::LedBlue.makeOutput();
+        bsp::ButtonA.makeInput();
+
+
 Simple Usage
 ------------
 
