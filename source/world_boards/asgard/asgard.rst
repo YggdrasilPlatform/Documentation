@@ -109,6 +109,7 @@ DDR3L SDRAM (1.35V) is a low voltage version of the DDR3 (1.5V) SDRAM. Refer to 
    :hidden:
 
    pcb
+   pinout
    u-boot/u-boot
    linux/linux
    android/android

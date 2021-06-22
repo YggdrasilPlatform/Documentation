@@ -93,3 +93,4 @@ Single Port 10/100 Mbps Ethernet Physical Layer Transceiver with Fiber Support
    :hidden:
 
    pcb
+   pinout
