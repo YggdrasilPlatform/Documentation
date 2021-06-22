@@ -68,3 +68,12 @@ Getting Started
             void cpp_main(void);
 
         Now call this function above the infinite loop in ``main`` and add all your C++ code to the ``cpp_main`` function.
+
+Troubleshooting
+---------------
+
+Debugging works but execution doesn't follow the code
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+If the wrong boot mode is selected, Midgard will start running code from the internal Boot ROM instead of the flash. These are mapped to the same addresses so when debugging, gdb thinks its executing your code but the actual executed code is the Boot ROM. 
+Since your code and the Boot ROMs code differ, it looks as if your code jumps to seemingly random places at weird points.
