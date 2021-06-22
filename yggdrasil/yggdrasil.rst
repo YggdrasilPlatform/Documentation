@@ -23,7 +23,7 @@ This is a simple map of all peripherals found on Yggdrasil.
 
 .. raw:: html
 
-    <img src="../_static/assets/YggdrasilPCB.png" width="1600px" height="1200px" alt="Yggdrasil PCB" usemap="#yggdrasilmap">   
+    <img src="../_static/assets/yggdrasilPCB.png" width="1600px" height="1200px" alt="Yggdrasil PCB" usemap="#yggdrasilmap">   
     <map name="yggdrasilmap">
         <area alt="Joystick Left"     title="Joystick Left"       coords="16,1061,156,1200"       shape="rect"    href="../libyggdrasil/peripherals/joystick.html">
         <area alt="Joystick Right"    title="Joystick Right"      coords="1446,1060,1588,1203"    shape="rect"    href="../libyggdrasil/peripherals/joystick.html">
@@ -60,7 +60,7 @@ This is a simple map of all peripherals found on Yggdrasil.
         <area alt="CR1216 RTC Battery"title="CR1216 RTC Battery"  coords="131,194,302,284"        shape="rect">
     </map>
 
-    <script type="text/javascript" src="../_static/scripts/imageMapResizer.min.js"></script>
+    <script type="text/javascript" src="/_static/scripts/imageMapResizer.min.js"></script>
     <script type="text/javascript">
         imageMapResize();
     </script>
