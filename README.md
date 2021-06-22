@@ -26,5 +26,5 @@ Build the documentation with the following steps:
  ```bash
  xdg-open _build/html/index.html 
  ```
-
-[sphinx.ext.imgmath](https://www.sphinx-doc.org/en/master/usage/extensions/math.html)
+## Getting Started With Sphinx
+[The Sphinx Doc](https://www.sphinx-doc.org/en/master/usage/index.html)
