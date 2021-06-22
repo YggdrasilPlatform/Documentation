@@ -48,7 +48,7 @@ Pin  Description                 Pin  Description
 61   GPIO B                      62   
 63   GPIO C                      64   
 65   GPIO D                      66   VDD
-67                               68   
+67   USB_C_ALERT                 68   
 69   GND                         70   
 71                               72   OTG ID
 73                               74   USB1_P

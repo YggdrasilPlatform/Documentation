@@ -7,6 +7,10 @@ Hashing Hardware
     The hashing hardware gives access to hardware accelerated CRC, SHA, MD5 and HMAC calculations.
     These are mainly used to guarantee the validity of data very quickly. 
 
+.. warning::
+    This driver does work, however it doesn't yield the same results as other CRC implementations.
+    For the same input it does always return the same output.
+
 
 Simple Usage
 ------------

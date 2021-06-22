@@ -37,12 +37,12 @@ The example below will use button A to control the state of the driver output.
     .. code-tab:: c
 
         // Set channel D to the state of button A
-        yggdrasil_PushPullDriver_Out_Set(PushPullDriverChannel_D, yggdrasil_GPIO_Read(ButtonA));
+        yggdrasil_SinkDriver_Out_Set(SinkDriverChannel_D, yggdrasil_GPIO_Read(ButtonA));
 
     .. code-tab:: cpp
 
         // Set channel D to the state of button A
-        bsp::ygg::prph::PushPullDriver::Out::set(bsp::ygg::prph::PushPullDriver::Channel::D, bsp::ButtonA);
+        bsp::ygg::prph::SinkDriver::Out::set(bsp::ygg::prph::SinkDriver::Channel::D, bsp::ButtonA);
 
 Usage as servo driver
 ---------------------
@@ -67,7 +67,7 @@ The example below shows a sweep in ccw direction.
         while(1) {
 
             // Set the position value for channel D
-            yggdrasil_PushPullDriver_Servo_Set(PushPullDriverChannel_D, sweep);
+            yggdrasil_SinkDriver_Servo_Set(SinkDriverChannel_D, sweep);
 
             core_Delay(10);
 
@@ -85,7 +85,7 @@ The example below shows a sweep in ccw direction.
         while(true) {
 
             // Set the position value for channel D
-            bsp::ygg::prph::PushPullDriver::Servo::set(bsp::ygg::prph::PushPullDriver::Channel::D, sweep);
+            bsp::ygg::prph::SinkDriver::Servo::set(bsp::ygg::prph::SinkDriver::Channel::D, sweep);
 
             bsp::core::delay(10);
 
@@ -104,12 +104,12 @@ If the used servos need other high time differences form the 1.5ms idle high tim
     .. code-tab:: c
 
         // Change the high time difference to 750 ms
-        yggdrasil_PushPullDriver_Servo_SetDeltaHighTime(PushPullDriverChannel_D, 750);
+        yggdrasil_SinkDriver_Servo_SetDeltaHighTime(SinkDriverChannel_D, 750);
 
     .. code-tab:: cpp
 
         // Change the high time difference to 750 ms
-        bsp::ygg::prph::PushPullDriver::Servo::setDeltaHighTime(bsp::ygg::prph::PushPullDriver::Channel::D, 750);
+        bsp::ygg::prph::SinkDriver::Servo::setDeltaHighTime(bsp::ygg::prph::SinkDriver::Channel::D, 750);
 
 After this code line, -100% equals 0.75ms and 100% equals 2.25ms for channel D. The other channels will not be affected from this change.
 
@@ -130,7 +130,7 @@ The following example will set the pwm frequency to 1kHz with a resolution of 10
     .. code-tab:: c
 
         // Set the pwm frequency to 1kHz with a resolution of 1000 steps
-        if (yggdrasil_PushPullDriver_PWM_SetFrequency(1000, 1000)) {
+        if (yggdrasil_SinkDriver_PWM_SetFrequency(1000, 1000)) {
             printf("Frequency and resolution successfully changed!\n");
         }
         else {
@@ -141,16 +141,16 @@ The following example will set the pwm frequency to 1kHz with a resolution of 10
         }
 
         // Get the set frequency 
-        f = yggdrasil_PushPullDriver_PWM_GetFrequency();
+        f = yggdrasil_SinkDriver_PWM_GetFrequency();
         printf("F = %luHz\n", f);
 
         // Set the duty to 25.5% (equals 255us high time with the settings above)
-        yggdrasil_PushPullDriver_PWM_SetDuty(PushPullDriverChannel_D, 25.5F);
+        yggdrasil_SinkDriver_PWM_SetDuty(SinkDriverChannel_D, 25.5F);
 
     .. code-tab:: cpp
 
         // Set the pwm frequency to 1kHz with a resolution of 1000 steps
-        if (bsp::ygg::prph::PushPullDriver::PWM::setFrequency(1E3, 1000)) {
+        if (bsp::ygg::prph::SinkDriver::PWM::setFrequency(1E3, 1000)) {
             printf("Frequency and resolution successfully changed!\n");
         }
         else {
@@ -161,11 +161,11 @@ The following example will set the pwm frequency to 1kHz with a resolution of 10
         }
 
         // Get the set frequency 
-        f = bsp::ygg::prph::PushPullDriver::PWM::getFrequency();
+        f = bsp::ygg::prph::SinkDriver::PWM::getFrequency();
         printf("F = %luHz\n", f);
 
         // Set the duty to 25.5% (equals 255us high time with the settings above)
-        bsp::ygg::prph::PushPullDriver::PWM::setDuty(bsp::ygg::prph::PushPullDriver::Channel::D, 25.5F);
+        bsp::ygg::prph::SinkDriver::PWM::setDuty(bsp::ygg::prph::SinkDriver::Channel::D, 25.5F);
 
 What if the pwm can not be set
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
