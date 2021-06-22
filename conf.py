@@ -94,14 +94,19 @@ html_theme_options = {
     'logo_only': False,
     'style_external_links': True,
     'display_version': False,
-    'navigation_depth': 4,
     'style_nav_header_background': '#41748cff',
     'prev_next_buttons_location' : None,
+    # Toc options
+    'collapse_navigation': True,
+    'sticky_navigation': True,
+    'navigation_depth': 4,
+    'includehidden': True,
+    'titles_only': False
 }
 
 # some customizations on styles - relative path to _static
 html_css_files = [
-    'css/tabs.css',
+#    'css/tabs.css',
     'css/custom.css',
     'css/beta_banner.css',
 ]
