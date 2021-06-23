@@ -13,14 +13,14 @@
 #import sys
 #sys.path.insert(0, os.path.abspath('.'))
 
-import sphinx_rtd_theme
+import furo
 import datetime
 from pygments.formatters import HtmlFormatter
 from recommonmark.transform import AutoStructify
 
 # -- Project information -----------------------------------------------------
 
-project = 'Yggdrasil Developer Manual'
+project = 'Yggdrasil'
 author = 'Sägesser Nikolaij, Weber Fabian'
 copyright = str(datetime.datetime.now().year) + ' | ' + author + ' | ' + 'Bern University of Applied Sciences'
 
@@ -39,14 +39,13 @@ sphinx_tabs_disable_tab_closing = True
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx_rtd_theme',
     # https://sphinx-copybutton.readthedocs.io/en/latest/
     'sphinx_copybutton',
-    'recommonmark',
+#    'recommonmark',
     # Auto-generate section labels.
-    'sphinx.ext.autosectionlabel',
+#    'sphinx.ext.autosectionlabel',
     # To embed youtube videos
-    'sphinxcontrib.yt',
+#    'sphinxcontrib.yt',
     # https://www.sphinx-doc.org/en/master/usage/extensions/todo.html
     'sphinx.ext.todo',    
     "sphinx.ext.intersphinx",
@@ -72,7 +71,7 @@ master_doc = 'index'
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'venv', 'README.md','.git', '.gitignore', 'requirements.txt', 'scripts','*~']
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'venv', 'README.md','.git', '.gitignore', 'requirements.txt', '*~']
 
 
 # -- Options for HTML output -------------------------------------------------
@@ -80,39 +79,28 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'venv', 'README.md','.gi
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'sphinx_rtd_theme'
-
-
+html_theme = 'furo'
+html_title = "Developer's Guide"
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
-html_logo = '_static/img/yggtrasil-logo.svg'
+#html_logo = '_static/img/yggtrasil-logo.svg'
 html_favicon = '_static/img/favicon.ico'
 html_theme_options = {
-    'logo_only': False,
-    'style_external_links': True,
-    'display_version': False,
-    'style_nav_header_background': '#41748cff',
-    'prev_next_buttons_location' : None,
-    # Toc options
-    'collapse_navigation': True,
-    'sticky_navigation': True,
-    'navigation_depth': 4,
-    'includehidden': True,
-    'titles_only': False
+# 'sidebar_hide_name' : 'True',
+#    https://pradyunsg.me/furo/customisation/logo/
+#    "light_logo": "logo-light-mode.png",
+#    "dark_logo": "logo-dark-mode.png",
 }
 
 # some customizations on styles - relative path to _static
 html_css_files = [
-#    'css/tabs.css',
+    'css/tabs.css',
     'css/custom.css',
     'css/beta_banner.css',
 ]
-
-## OLD
-## html_css_files = [ 'theme.css', 'tabs_theme.css' ]
 
 
 html_context = {
@@ -123,6 +111,8 @@ html_context = {
     'conf_py_path': '/',
     'show_source': False
 }
+
+html_scaled_image_link = False
 
 #Internationalization https://www.sphinx-doc.org/en/master/usage/advanced/intl.html
 # make german transliation with make -e SPHINXOPTS="-D language='de'" html

@@ -60,7 +60,7 @@ This is a simple map of all peripherals found on Yggdrasil.
         <area alt="CR1216 RTC Battery"title="CR1216 RTC Battery"  coords="131,194,302,284"        shape="rect">
     </map>
 
-    <script type="text/javascript" src="/_static/scripts/imageMapResizer.min.js"></script>
+    <script type="text/javascript" src="../_static/scripts/imageMapResizer.min.js"></script>
     <script type="text/javascript">
         imageMapResize();
     </script>

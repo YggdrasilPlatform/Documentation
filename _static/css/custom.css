@@ -1,7 +1,13 @@
-div .highlight-bash .highlight {
-  background-color: rgba(0, 130, 201, 0.1); 
+img.align-center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
-.wy-nav-top {
-  background: #41748cff; 
+.content {
+    width: 54em;
+}
+
+.sidebar-drawer {
+	width: calc(50% - 35em);
 }
