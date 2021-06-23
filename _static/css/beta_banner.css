@@ -1,0 +1,21 @@
+body:after{
+  content: "beta";
+  position: fixed;
+  z-index: 1070;
+  width: 80px;
+  height: 25px;
+  background: #d25a50;
+  top: 7px;
+  left: -20px;
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #222;
+  line-height: 27px;
+  -ms-transform:rotate(-450deg);
+  -webkit-transform:rotate(-45deg);
+  transform:rotate(-45deg);
+}

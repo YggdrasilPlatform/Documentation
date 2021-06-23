@@ -1,7 +1,5 @@
-Yggdrasil Platform
-==================
 
-.. image:: assets/title.png
+.. image:: /_static/images/title.png
    :width: 100%
    :alt: Yggdrasil
    :align: center
@@ -35,8 +33,7 @@ For other persons this software is under the terms of the `GNU General Public Li
 
 
 .. toctree::
-   :maxdepth: 1
-   :caption: Contents:
+   :maxdepth: 3
    :hidden:
    
    yggdrasil/yggdrasil
