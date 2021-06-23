@@ -1,7 +1,5 @@
-Yggdrasil Platform
-==================
 
-.. image:: /_image/title.png
+.. image:: /_static/images/title.png
    :width: 100%
    :alt: Yggdrasil
    :align: center

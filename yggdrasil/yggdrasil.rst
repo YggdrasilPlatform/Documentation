@@ -23,7 +23,7 @@ This is a simple map of all peripherals found on Yggdrasil.
 
 .. raw:: html
 
-    <img src="../_static/assets/yggdrasilPCB.png" width="1600px" height="1200px" alt="Yggdrasil PCB" usemap="#yggdrasilmap">   
+    <img src="../_static/images/yggdrasilPCB.png" width="1600px" height="1200px" alt="Yggdrasil PCB" usemap="#yggdrasilmap">   
     <map name="yggdrasilmap">
         <area alt="Joystick Left"     title="Joystick Left"       coords="16,1061,156,1200"       shape="rect"    href="../libyggdrasil/peripherals/joystick.html">
         <area alt="Joystick Right"    title="Joystick Right"      coords="1446,1060,1588,1203"    shape="rect"    href="../libyggdrasil/peripherals/joystick.html">

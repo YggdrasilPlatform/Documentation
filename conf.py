@@ -32,6 +32,9 @@ copyright = str(datetime.datetime.now().year) + ' | ' + author + ' | ' + 'Bern U
 
 html_show_sourcelink = False
 html_show_sphinx = False
+html_copy_source = False
+## To deactivate update time-stamp comment the variable
+html_last_updated_fmt = ''
 
 sphinx_tabs_disable_tab_closing = True
 
@@ -48,11 +51,11 @@ extensions = [
 #    'sphinxcontrib.yt',
     # https://www.sphinx-doc.org/en/master/usage/extensions/todo.html
     'sphinx.ext.todo',    
-    "sphinx.ext.intersphinx",
-    "sphinx.ext.autodoc",
-    "sphinx.ext.mathjax",
-    "sphinx.ext.viewcode",
-    "sphinx_tabs.tabs"
+    'sphinx.ext.intersphinx',
+    'sphinx.ext.autodoc',
+    'sphinx.ext.mathjax',
+    'sphinx.ext.viewcode',
+    'sphinx_tabs.tabs'
 ]
 
 todo_include_todos = True
@@ -80,19 +83,20 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'venv', 'README.md','.gi
 # a list of builtin themes.
 #
 html_theme = 'furo'
-html_title = "Developer's Guide"
+html_title = "Yggdrasil Developer Guide"
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
-#html_logo = '_static/img/yggtrasil-logo.svg'
-html_favicon = '_static/img/favicon.ico'
+#html_logo = '_static/logos/yggdrasil-logo.svg'
+html_favicon = '_static/logos/favicon.ico'
 html_theme_options = {
+    "announcement": "<em>Important</em> announcement!",
 # 'sidebar_hide_name' : 'True',
 #    https://pradyunsg.me/furo/customisation/logo/
-#    "light_logo": "logo-light-mode.png",
-#    "dark_logo": "logo-dark-mode.png",
+#    "light_logo": "/_static/logos/logo-light-mode.png",
+#    "dark_logo": "/_static/logos/logo-dark-mode.png",
 }
 
 # some customizations on styles - relative path to _static
