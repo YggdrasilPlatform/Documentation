@@ -99,7 +99,7 @@ html_theme_options = {
 html_css_files = [
     'css/tabs.css',
     'css/custom.css',
-    'css/beta_banner.css',
+#    'css/beta_banner.css',
 ]
 
 

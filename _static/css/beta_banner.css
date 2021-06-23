@@ -5,8 +5,8 @@ body:after{
   width: 80px;
   height: 25px;
   background: #d25a50;
-  top: 40px;
-  left: 15px;
+  top: 7px;
+  left: -20px;
   text-align: center;
   font-size: 12px;
   letter-spacing: 1px;
@@ -15,7 +15,7 @@ body:after{
   font-weight: bold;
   color: #222;
   line-height: 27px;
-  -ms-transform:rotate(0deg);
-  -webkit-transform:rotate(0deg);
-  transform:rotate(0deg);
+  -ms-transform:rotate(-450deg);
+  -webkit-transform:rotate(-45deg);
+  transform:rotate(-45deg);
 }
