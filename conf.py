@@ -92,7 +92,6 @@ html_static_path = ['_static']
 #html_logo = '_static/logos/yggdrasil-logo.svg'
 html_favicon = '_static/logos/favicon.ico'
 html_theme_options = {
-    "announcement": "-- BETA --",
 # 'sidebar_hide_name' : 'True',
 #    https://pradyunsg.me/furo/customisation/logo/
 #    "light_logo": "/_static/logos/logo-light-mode.png",

@@ -3,6 +3,14 @@ libyggdrasil
 
 libyggdrasil is a Support Library designed specifically for the use with the Yggdrasil platform. 
 
+.. important::
+    | **Doxygen Documentation**
+    | All functions and features documentated with Doxygen comments
+    | `>>> <https://werwolv.net/yggdrasil/doxygen/index.html>`_
+
+Features
+--------
+
 .. seealso::
     | **Getting Started**
     | Starting up with developing software on the Yggdrasil platform
@@ -27,11 +35,6 @@ libyggdrasil is a Support Library designed specifically for the use with the Ygg
     | **CMSIS DSP Library**
     | Optimized Digital Signal Processing
     | :ref:`>>> <cmsis_dsp>`
-
-.. seealso::
-    | **Yggdrasil On-Board Connectors**
-    | Connecting external peripherals to Yggdrasil
-    | :ref:`>>> <connectors>`
 
 .. toctree::
    :maxdepth: 1

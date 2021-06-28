@@ -12,6 +12,15 @@ Overview
 Yggdrasil is the main peripheral board of the Yggdrasil Platform. On it lots of connectors, sensor, actors and input devices can be found which can easily be interacted with from any World Board using libyggdrasil.
 
 
+.. seealso::
+    | **Boot Mode Configuration**
+    | Explaination of the different boot modes
+    | :ref:`>>> <boot_modes>`
+.. seealso::
+    | **On-Board Connectors**
+    | Connecting external peripherals to Yggdrasil
+    | :ref:`>>> <connectors>`
+
 Map
 ---
 

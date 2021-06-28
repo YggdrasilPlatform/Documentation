@@ -1,3 +1,5 @@
+.. _boot_modes:
+
 Boot Modes
 ==========
 
