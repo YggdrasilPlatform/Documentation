@@ -1,12 +1,12 @@
-body:after{
+.sidebar-brand:after{
   content: "beta";
   position: fixed;
   z-index: 1070;
   width: 80px;
   height: 25px;
   background: #d25a50;
-  top: 7px;
-  left: -20px;
+  margin-left: -37px;
+  margin-top: -3px;
   text-align: center;
   font-size: 12px;
   letter-spacing: 1px;
@@ -15,7 +15,7 @@ body:after{
   font-weight: bold;
   color: #222;
   line-height: 27px;
-  -ms-transform:rotate(-450deg);
+  -ms-transform:rotate(-45deg);
   -webkit-transform:rotate(-45deg);
   transform:rotate(-45deg);
 }

@@ -85,7 +85,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'venv', 'README.md','.gi
 is_beta = True
 
 html_theme = 'furo'
-html_title = "Yggdrasil Developer Guide &nbsp;&nbsp; " + ("[ BETA ]" if is_beta else "")
+html_title = "Yggdrasil Developer Guide"
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
@@ -104,7 +104,7 @@ html_theme_options = {
 html_css_files = [
     'css/tabs.css',
     'css/custom.css',
-#    'css/beta_banner.css',
+    'css/beta_banner.css' if is_beta else '',
 ]
 
 
