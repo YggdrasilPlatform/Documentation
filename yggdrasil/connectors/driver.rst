@@ -7,7 +7,7 @@ Sink Driver Header
 | Each Driver Channel also has an LED to show activity. 
 
 .. seealso::
-    * :ref:`Push Pull Driver Peripheral Driver <SinkDriverPeripheral>`
+    * :ref:`Sink Driver Peripheral Driver <SinkDriverPeripheral>`
 
 Connector
 ---------
@@ -15,15 +15,15 @@ Connector
 .. rst-class:: only-light
 
     .. image:: assets/sinkDriver_light.png
-        :width: 60%
-        :alt: Push Pull Driver  
+        :width: 40%
+        :alt: Sink Driver  
         :align: center
 
 .. rst-class:: only-dark
 
     .. image:: assets/sinkDriver_dark.png
-        :width: 60%
-        :alt: Push Pull Driver
+        :width: 40%
+        :alt: Sink Driver
         :align: center
 
 

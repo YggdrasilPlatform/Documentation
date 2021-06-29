@@ -12,7 +12,10 @@ The World Connector is the most important connector on Yggdrasil. It's a ``SOMID
 Connector
 ---------
 
+
 ===  ==========================  ===  =================
+Bottom Side                      Top Side
+-------------------------------  ----------------------
 Pin  Description                 Pin  Description 
 ===  ==========================  ===  =================
 1    Led A                       2    Timer B Channel A

@@ -20,14 +20,14 @@ CAN A
 .. rst-class:: only-light
 
     .. image:: assets/cana_light.png
-        :width: 30%
+        :height: 350px
         :alt: CAN A connector
         :align: center
 
 .. rst-class:: only-dark
 
     .. image:: assets/cana_dark.png
-        :width: 30%
+        :height: 350px
         :alt: CAN A connector
         :align: center
 
@@ -37,14 +37,14 @@ CAN B
 .. rst-class:: only-light
 
     .. image:: assets/canb_light.png
-        :width: 30%
+        :height: 350px
         :alt: CAN B connector
         :align: center
 
 .. rst-class:: only-dark
 
     .. image:: assets/canb_dark.png
-        :width: 30%
+        :height: 350px
         :alt: CAN B connector
         :align: center
 

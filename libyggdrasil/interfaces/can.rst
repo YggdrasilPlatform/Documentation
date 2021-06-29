@@ -104,18 +104,43 @@ If the masked ID equals the filter ID, then the CAN hardware proceeds with the p
 
 A filter configured with a filter ID of 0x400 and a mask of 0x7FE will only accept ID 0x400 and ID 0x401.
 
-.. image:: assets/canFilter.png
-    :width: 100%
-    :alt: CAN Filter matching ID
-    :align: center
+|
 
+.. rst-class:: only-light
+
+    .. image:: assets/canFilter_light.png
+        :width: 90%
+        :alt: CAN Filter matching ID
+        :align: center
+
+.. rst-class:: only-dark
+
+    .. image:: assets/canFilter_dark.png
+        :width: 90%
+        :alt: CAN Filter matching ID
+        :align: center
+
+|
 
 Here is the same example with another incoming ID. In this case the ID is 0x402 which will not be accepted, since the masked ID is not equal to the filter ID. 
 
-.. image:: assets/canFilterNoMatch.png
-    :width: 100%
-    :alt: CAN Filter not matching ID
-    :align: center
+|
+
+.. rst-class:: only-light
+
+    .. image:: assets/canFilterNoMatch_light.png
+        :width: 90%
+        :alt: CAN Filter matching ID
+        :align: center
+
+.. rst-class:: only-dark
+
+    .. image:: assets/canFilterNoMatch_dark.png
+        :width: 90%
+        :alt: CAN Filter not matching ID
+        :align: center
+
+|
 
 .. note::
 

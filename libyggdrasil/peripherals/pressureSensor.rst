@@ -43,7 +43,7 @@ The sensor will be initialized through the BSP. The sensor data can be used as s
     .. code-tab:: c
 
         // Get the temperature
-        auto temp = yggdrasil_PressureSensor_GetTemperature();
+        float temp = yggdrasil_PressureSensor_GetTemperature();
         printf("Temperature: %fC \n", temp);
 
     .. code-tab:: cpp

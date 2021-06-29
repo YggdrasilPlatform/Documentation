@@ -1,3 +1,5 @@
+.. _LinuxGPIOAccess:
+
 GPIO Access
 ===========
 

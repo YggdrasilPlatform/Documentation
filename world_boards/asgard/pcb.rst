@@ -11,4 +11,4 @@ Schematics, Layout, 3D Model and Bill of Materials of Asgard.
 
 .. seealso::
 
-    **Download**
+    * `PCB Download <https://werwolv.net/yggdrasil/pcbs/Asgard.zip>`_

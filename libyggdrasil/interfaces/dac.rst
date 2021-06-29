@@ -63,7 +63,7 @@ and then used like all other DACs.
 
 .. tabs::
 
-    .. code-tab:: cpp
+    .. code-tab:: c
 
         yggdrasil_DAC_Write(MyDAC, 0.5 / ReferenceVoltage);
 

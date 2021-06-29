@@ -12,12 +12,12 @@ To start developing on the Yggdrasil platform with Linux using Asgard, the follo
     * `VSCode <https://code.visualstudio.com/>`_
     * `Asgard Linux Template <https://gitlab.ti.bfh.ch/yggdrasil/asgard/asgard_linux_template>`_
     * :ref:`Yggdrasil Toolchain <yggdrasil_toolchain>`
-    * A `WSL2 <https://docs.microsoft.com/en-us/windows/wsl/install-win10>`_ or Linux setup
+    * `WSL2 <https://docs.microsoft.com/en-us/windows/wsl/install-win10>`_ or Linux setup
     * `Meson <https://mesonbuild.com/>`_
 
 Download and install VSCode. Then either setup WSL2 or a Linux VM if you're using Windows or use a native Linux installation.
 
-Download the Asgard Toolchain and extract it to ``/opt/yggdrasil``. If desired, add the ``/opt/yggdrasil/bin`` folder to your ``PATH``.
+Download the Asgard Toolchain and extract it to ``/opt/yggdrasil``. If desired, add the ``/opt/yggdrasil/asgard/bin`` folder to your ``PATH``.
 
 Getting Started
 ---------------
@@ -26,7 +26,7 @@ Clone the Asgard Linux Template (make sure to clone all submodules with ``--recu
 
 .. code-block:: shell
 
-    $ meson build --cross-file=yggdrasil
+    $ meson build --cross-file=asgard
 
 To compile the project use
 

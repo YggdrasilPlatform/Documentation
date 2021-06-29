@@ -36,7 +36,7 @@ A measurement takes about 10ms.
 
         // Read the humidity
         float humidity = yggdrasil_HumiditySensor_GetHumidity(HumiditySensorPrecision_High);
-        printf("Humidity: %f%RH \n", humidity);
+        printf("Humidity: %f%%RH \n", humidity);
 
     .. code-tab:: cpp
 

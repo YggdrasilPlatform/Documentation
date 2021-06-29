@@ -26,12 +26,12 @@ Pre-Processor defines
 .. important::
     Make sure to apply the settings to both the gcc and g++ section!
 
-================================ ============================================================================
+================================ ===============================================================================================
 Defines                          Description
-================================ ============================================================================
-``BOARD=<BOARD_NAME>``           ``BOARD_NAME`` represents the Board in use. Can be ``MIDGARD`` or ``ASGARD``
+================================ ===============================================================================================
+``BOARD=<BOARD_NAME>``           ``BOARD_NAME`` represents the Board in use. Can be ``MIDGARD``, ``ASGARD`` or ``ASGARD_COPROC``
 ``YGGDRASIL_PERIPHERAL_DEFS``    Adds default peripheral definitions. Not supported when using a custom ioc
-================================ ============================================================================
+================================ ===============================================================================================
 
 C++ Compile Flags
 -----------------
@@ -62,6 +62,12 @@ Path                                  Description
 ===================================== ============================================================================
 ``../libyggdrasil/Src``               Main source path for libyggdrasil
 ===================================== ============================================================================
+
+Initialization
+""""""""""""""
+
+To use most core functionality of libyggdrasil, all hardware and peripheral drivers need to be initialized and libyggdrasil configured.
+At the start of main after all hardware initialization has been done, the function ``yggdrasil_init()`` needs to be called for this.
 
 .. toctree::
     :maxdepth: 1

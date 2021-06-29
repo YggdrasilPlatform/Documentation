@@ -11,7 +11,7 @@ The SWD Debug Port allows flashing and debugging of external PCBs over the integ
 
 .. note::
     
-    Depending on the voltage the target board uses, it's possible to switch the ``Target V+`` between 3.3V and 5V.
+    Depending on the voltage the target board uses, it's possible to switch the **Target V+** between 3.3V and 5V.
     For the World Boards, 3.3V should be used, however the JTAG pins are 5V tollerant.
 
 Connector

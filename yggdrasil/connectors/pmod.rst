@@ -1,9 +1,9 @@
 .. _PmodConnector:
 
-Pmod Connectors
+PMod Connectors
 ===============
 
-Pmod is an interface used mainly in extension boards for development platforms and has multiple different types. 
+PMod is an interface used mainly in extension boards for development platforms and has multiple different types. 
 
 .. seealso::
     * :ref:`UART Hardware Driver <UartInterface>`

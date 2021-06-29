@@ -11,4 +11,4 @@ Schematics, Layout, 3D Model and Bill of Materials of Midgard.
 
 .. seealso::
 
-    **Download**
+    * `PCB Download <https://werwolv.net/yggdrasil/pcbs/Midgard.zip>`_

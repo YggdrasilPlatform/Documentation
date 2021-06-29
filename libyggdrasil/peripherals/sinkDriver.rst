@@ -75,7 +75,7 @@ The example below shows a sweep in ccw direction.
             sweep += 0.1F;
 
             // Reset the variable when the maximum is reached
-            if (sweep == 100) sweep = -100;
+            if (sweep >= 100) sweep = -100;
         }
 
     .. code-tab:: cpp
@@ -93,7 +93,7 @@ The example below shows a sweep in ccw direction.
             sweep += 0.1F;
 
             // Reset the variable when the maximum is reached
-            if (sweep == 100) sweep = -100;
+            if (sweep >= 100) sweep = -100;
         }
 
 
@@ -140,8 +140,8 @@ The following example will set the pwm frequency to 1kHz with a resolution of 10
             */
         }
 
-        // Get the set frequency 
-        f = yggdrasil_SinkDriver_PWM_GetFrequency();
+        // Get the set frequency of channel A
+        float f = yggdrasil_SinkDriver_PWM_GetFrequency(SinkDriverChannel_A);
         printf("F = %luHz\n", f);
 
         // Set the duty to 25.5% (equals 255us high time with the settings above)
@@ -160,8 +160,8 @@ The following example will set the pwm frequency to 1kHz with a resolution of 10
             */
         }
 
-        // Get the set frequency 
-        f = bsp::ygg::prph::SinkDriver::PWM::getFrequency();
+        // Get the set frequency of channel A
+        float f = bsp::ygg::prph::SinkDriver::PWM::getFrequency(bsp::ygg::prph::SinkDriver::Channel::A);
         printf("F = %luHz\n", f);
 
         // Set the duty to 25.5% (equals 255us high time with the settings above)

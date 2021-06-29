@@ -82,7 +82,7 @@ Here is a full list of all features Yggdrasil has.
 Connectors
 ^^^^^^^^^^
 
-* 2 x **Digilent Pmod Interface, Configurable between 3.3V and 5V**
+* 2 x **Digilent PMod Interface, Configurable between 3.3V and 5V**
 * 2 x **Seeed Grove Interface, Configurable between 3.3V and 5V**
 * 1 x **2.4mm Headphone Jack**
 * 1 x **USB-C for data transfer**
@@ -102,6 +102,7 @@ Connectors
 * 1 x **Micro SD-Card slot**
 * 1 x **SODIMM314 Card slot for World Boards, Compatible with the Toradex Apalis series**
 * 1 x **STLINK-V3 Bridge Interface, Support for GPIOs, I2C, SPI, UART and FD-CAN**
+* 1 x **SWD Debug Port**
 
 Sensors
 ^^^^^^^

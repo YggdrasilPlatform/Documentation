@@ -1,3 +1,5 @@
+.. _LinuxBuilding:
+
 Building Linux from Scratch
 ===========================
 

@@ -40,7 +40,7 @@ Clone the repository
 Usage
 -----
 
-To get started, clone the latest `Midgard Rust Template <https://gitlab.ti.bfh.ch/yggdrasil/midgard/midgard-rust-template>`_ from GitLab. 
+To get started, clone the latest `Midgard Rust Template <https://gitlab.ti.bfh.ch/yggdrasil/midgard/midgard_rust_template>`_ from GitLab. 
 
 | To compile the project, simply open the ``Run and Debug`` panel, select ``Debug Template`` or one of the ``Debug Example <XYZ>`` entries from the list and click on the Run button.
 | Alternatively, you can also use ``cargo build`` to compile the template or ``cargo build --example=<example_name>`` to compile an example. 
